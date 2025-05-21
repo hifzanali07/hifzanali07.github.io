@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechnHub - Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="logo">
+          <img src="./assets/images/sidebar.jpg.jpeg" alt="TechnHub" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="TechnHub">TechnHub</h1>
+
+          <p class="title">Tech Company</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:techn.hub@example.com" class="contact-link">techn.hub@example.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12177522790" class="contact-link">+1 (217) 752-2790</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Since</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>The Millennium Universal College, Peshawar</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="services.html" class="navbar-link" data-nav-link>Services</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="portfolio.html" class="navbar-link active" data-nav-link>Portfolio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          
+
+          <li class="navbar-item">
+            <a href="testimonials.html" class="navbar-link" data-nav-link>Testimonials</a>
+          </li>
+          
+          <li class="navbar-item">
+            <a href="faqs.html" class="navbar-link" data-nav-link>FAQs</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+    <article class="portfolio active" data-page="portfolio">
+  <header>
+    <h2 class="h2 article-title">Portfolio</h2>
+  </header>
+
+  <section class="projects">
+    <ul class="project-list">
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-box">
+            </div>
+            <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+          </figure>
+          <h3 class="project-title">Finance</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-box">
+            </div>
+            <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+          </figure>
+          <h3 class="project-title">Orizon</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web design">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-box">
+            </div>
+            <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+          </figure>
+          <h3 class="project-title">Fundo</h3>
+          <p class="project-category">Web design</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-box">
+            </div>
+            <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+          </figure>
+          <h3 class="project-title">Brawlhalla</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web design">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-box">
+            </div>
+            <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+          </figure>
+          <h3 class="project-title">DSM.</h3>
+          <p class="project-category">Web design</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web design">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-box">
+            </div>
+            <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+          </figure>
+          <h3 class="project-title">MetaSpark</h3>
+          <p class="project-category">Web design</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-box">
+            </div>
+            <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+          </figure>
+          <h3 class="project-title">Summary</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="applications">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-box">
+            </div>
+            <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+          </figure>
+          <h3 class="project-title">Task Manager</h3>
+          <p class="project-category">Applications</p>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+          <figure class="project-img">
+            <div class="project-item-box">
+            </div>
+            <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+          </figure>
+          <h3 class="project-title">Arrival</h3>
+          <p class="project-category">Web development</p>
+        </a>
+      </li>
+    </ul>
+  </section>
+</article>
+
+</div>
+</main>
+
+<!--
+  - footer
+-->
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-top">
+      <div class="footer-column">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="index.html">About Us</a></li>
+          <li><a href="blog.html">Blog</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Services</h3>
+        <ul>
+          <li>Web Design</li>
+          <li>Web Development</li>
+          <li>Mobile Apps</li>
+          <li>Photography</li>
+          <li>Cloud Infrastructure</li>
+          <li>Cybersecurity</li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h3>Connect With Us</h3>
+        <div class="contact-info">
+          <p><strong>Email:</strong> <a href="mailto:technhub@example.com">technhub@example.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+12177522790">+1 (217) 752-2790</a></p>
+          <p><strong>Address:</strong> The Millennium Universal College, Peshawar</p>
+        </div>
+        <div class="social-icons">
+         <li class="social-item">
+                <a href="www.facebook.com" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li class="social-item">
+                <a href="www.twitter.com" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li class="social-item">
+                <a href="www.instagram.com" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+      </div>
+    </div>
+    
+    <div class="footer-middle">
+      <div class="newsletter">
+        <h3>Subscribe to Our Newsletter</h3>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="copyright">
+        <p>&copy; 1982-2025 TECHnHUB. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
